@@ -9,15 +9,15 @@ namespace ConsoleApplication35
     {
         static void Main(string[] args)
         {
-            Console.Write("Ünlü şairimiz Mehmet Akif'in soyadı nedir?\nCevabınız :");
+            Console.Write("ÃœnlÃ¼ Ã¾airimiz Mehmet Akif'in soyadÃ½ nedir?\nCevabÃ½nÃ½z :");
             string cevap = Console.ReadLine();
             if(cevap=="ersoy")
             {
-                Console.Write("Tebrikler bu sorumuza doğru cevap verdiniz...");
+                Console.Write("Tebrikler bu sorumuza doÃ°ru cevap verdiniz...");//doÄŸru cevap verilince ekran Ã§Ä±ktÄ±sÄ±
             }
             else
             {
-                Console.WriteLine("Malesef yanlış cevap");
+                Console.WriteLine("Malesef yanlÃ½Ã¾ cevap");
             }
             Console.ReadLine();
 
